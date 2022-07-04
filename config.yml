@@ -1,0 +1,75 @@
+baseURL: "https://examplesite.com/"
+title: Moises Sanchez
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Moises Sanchez
+  description: "Personal site for Moises Sanchez"
+  keywords: [Blog, Portfolio, PaperMod, Software Engineering, Web Development, Game Development, Central Coast]
+  author: Moises Sanchez
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: 
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  profileMode:
+      enabled: true
+      title: "O-Hay 🐚" # optional default will be site title
+      subtitle: "I am some foo that writes code and stuff"
+      imageUrl: "<image link>" # optional
+      imageTitle: "" # optional
+      imageWidth: 120 # custom size
+      imageHeight: 120 # custom size
+  socialIcons:
+    - name: medium
+      url: "https://medium.com/@data-professor"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/moisesjsanchez/"
+    - name: github
+      url: "https://github.com/themolluskdev"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/dataprofessor"
+
+menu:
+  main:
+    - identifier: about
+      name: About 👋🏾
+      url: /about/
+      weight: 4
+    - identifier: projects
+      name: Cool Stuff ✨
+      url: /projects/
+      weight: 2
+    - identifier: work
+      name: Professional Stuff 📋
+      url: /work-experience/
+      weight: 2
