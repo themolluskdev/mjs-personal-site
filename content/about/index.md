@@ -16,7 +16,7 @@ draft: false
 
 Hello! I am Moises Sanchez. 
 
-Currently, I am a Intergration Specialist @ PayPal. For those that may have not heard of the role, it is building the merchant specific Javascript intergrations the populate one of Honey's flagship products that is Honey Product Catalog.
+Currently, I am a Intergration Specialist [@PayPal](https://www.paypal.com/us/home). For those that may have not heard of the role, it is building the merchant specific Javascript intergrations that populate one of Honey's flagship products that is Honey Product Catalog.
 
 Outside the world of ecommerce I enjoy building and learning a myraid of topics! Here are some topics I am recently working on: game developement, augmented reality, and linux application development. 
 
