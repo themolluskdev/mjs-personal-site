@@ -1,7 +1,7 @@
 ---
 title: "Somear [In-Progress]"
 date: 2022-07-03T22:58:07-07:00
-draft: true
+draft: false
 ---
 
 This is a web application for easy and simple AR intergration without the need for a lot of knowledge of augmented reality. This built with the AR.js, and gives users the
